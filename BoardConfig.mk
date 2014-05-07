@@ -23,7 +23,7 @@ LOCAL_PATH := device/samsung/n5120
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := cyanogenmod_n5120_defconfig
+TARGET_KERNEL_CONFIG := slim_n5120_defconfig
 
 # RIL
 COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND='{ "ril.ks.status", AID_SYSTEM, 0 },'
